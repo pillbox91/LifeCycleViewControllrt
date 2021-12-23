@@ -15,6 +15,7 @@
 		3262A98F27733B3E007ECD7C /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262A98E27733B3E007ECD7C /* YellowViewController.swift */; };
 		3262A99127733B48007ECD7C /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262A99027733B48007ECD7C /* GreenViewController.swift */; };
 		3262A99327733B53007ECD7C /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262A99227733B53007ECD7C /* OrangeViewController.swift */; };
+		3262A99527748854007ECD7C /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262A99427748854007ECD7C /* PurpleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3262A98E27733B3E007ECD7C /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 		3262A99027733B48007ECD7C /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 		3262A99227733B53007ECD7C /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		3262A99427748854007ECD7C /* PurpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				3262A98E27733B3E007ECD7C /* YellowViewController.swift */,
 				3262A99027733B48007ECD7C /* GreenViewController.swift */,
 				3262A99227733B53007ECD7C /* OrangeViewController.swift */,
+				3262A99427748854007ECD7C /* PurpleViewController.swift */,
 				3227F63B27732C8C00619A4A /* Main.storyboard */,
 				3227F63E27732C9400619A4A /* Assets.xcassets */,
 				3227F64027732C9400619A4A /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 			files = (
 				3262A99127733B48007ECD7C /* GreenViewController.swift in Sources */,
 				3262A99327733B53007ECD7C /* OrangeViewController.swift in Sources */,
+				3262A99527748854007ECD7C /* PurpleViewController.swift in Sources */,
 				3227F63627732C8C00619A4A /* AppDelegate.swift in Sources */,
 				3262A98F27733B3E007ECD7C /* YellowViewController.swift in Sources */,
 				3227F63827732C8C00619A4A /* SceneDelegate.swift in Sources */,

@@ -57,7 +57,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="wdd-3u-InP" kind="presentation" modalPresentationStyle="fullScreen" id="ubZ-cy-FC3"/>
+                                    <segue destination="wdd-3u-InP" kind="presentation" modalPresentationStyle="fullScreen" id="KUx-6x-NhT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -69,6 +69,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Tc1-kS-idm"/>
+                    <connections>
+                        <outlet property="openThirdVC" destination="XEm-pG-OKc" id="Tb2-Eb-2k8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s2A-uE-7xs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -89,6 +92,9 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="light" pointSize="25"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="close:" destination="wdd-3u-InP" eventType="touchUpInside" id="poa-WU-gtE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jsS-9v-Xyf"/>
